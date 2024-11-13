@@ -2,9 +2,11 @@
 
 这是一个基于c++和OpenCV的身份证号码识别，可以准确拿到身份证的号码，并将其和对应的省份进行比对，得到省份。根据号码判断是男是女，出生日期等功能。
 
-<img src="file:///./data/image/w.png" style="width:380px; display:flex;" />
+<img src="./data/image/w.png"/>
 
-<img src="file:///./data/image/q.png" style="width:380px; display:flex;"/>
+![流程图](./data/image/3.jpg)
+
+<img src="./data/image/q.png"/>
 
 # **文件路径**
 
@@ -405,7 +407,7 @@ void Card::num_id()
 
 ### 横着的矩形变竖着的了
 
-<img src="C:\Users\comeon\AppData\Roaming\Typora\typora-user-images\image-20240601185309267.png" alt="image-20240601185309267" style="zoom: 25%;" /><img src="C:\Users\comeon\AppData\Roaming\Typora\typora-user-images\image-20240601185420810.png" alt="image-20240601185420810" style="zoom: 25%;" />
+<img src="./data/image/1.png" style=" zoom:50%;" />
 
 #### 方法就是，如果它是竖着的，那我强行给它转正了
 
@@ -425,7 +427,7 @@ getRectSubPix(num_img, newSize, itr->center, temp);
 imshow("裁剪图片", temp);
 ```
 
-<img src="C:\Users\comeon\AppData\Roaming\Typora\typora-user-images\image-20240601190550063.png" alt="image-20240601190550063" style="zoom:50%;" />
+<img src="./data/image/2.png" style="zoom:80%;" />
 
 ## 取出每一个数字
 
